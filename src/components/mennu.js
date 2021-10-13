@@ -7,7 +7,10 @@ export default function BarMenu({ setSelected, selected }) {
     <nav className="nav-menu">
       <ul className="ul-menu">
         <li className="li-menu">
-          <a className="button-style" onClick={() => setSelected(!selected)}>
+          <a
+            className="button-style"
+            onClick={() => setSelected(!selected)}
+            href="#">
             Horde definition
           </a>
         </li>
@@ -21,7 +24,8 @@ export default function BarMenu({ setSelected, selected }) {
             className="button-style"
             onClick={() =>
               OpenInNewTabTwitter("https://twitter.com/Pixel_Zombies_")
-            }>
+            }
+            href="#">
             Twitter
           </a>
         </li>
