@@ -5,20 +5,19 @@ export default function ButtonJustMobile({ setSelected, selected }) {
   }
   return (
     <div className="button-mobile-container">
-      <a className="button-style-mobile" onClick={() => setSelected(!selected)}>
+      <button
+        className="button-style-mobile"
+        onClick={() => setSelected(!selected)}>
         Definition
-      </a>
-      <a className="button-style-mobile" href="">
-        Buy Pixel Zombie
-      </a>
-      <a
+      </button>
+      <button className="button-style-mobile">Buy Pixel Zombie</button>
+      <button
         className="button-style-mobile"
         onClick={() =>
           OpenInNewTabTwitter("https://twitter.com/Pixel_Zombies_")
-        }
-        href="">
+        }>
         Twitter
-      </a>
+      </button>
     </div>
   );
 }
