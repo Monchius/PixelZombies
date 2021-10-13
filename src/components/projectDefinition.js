@@ -4,9 +4,9 @@ export default function DefinitionFunction({ setSelected }) {
   };
   return (
     <div className="text-container-definition">
-      <a className="button-back" onClick={backHome}>
+      <button className="button-back" onClick={backHome}>
         Back
-      </a>
+      </button>
       <h2 className="h2-title-dafinition">Come and join the Horde!</h2>
       <p className="paragraph-style">
         Welcome to Crypto Zombie. XXXXX awesome living dead, coexisting on the
