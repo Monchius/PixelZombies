@@ -7,27 +7,23 @@ export default function BarMenu({ setSelected, selected }) {
     <nav className="nav-menu">
       <ul className="ul-menu">
         <li className="li-menu">
-          <a
+          <button
             className="button-style"
-            onClick={() => setSelected(!selected)}
-            href="#">
+            onClick={() => setSelected(!selected)}>
             Horde definition
-          </a>
+          </button>
         </li>
         <li className="li-menu">
-          <a className="button-style" href="#">
-            Buy Pixel Zombie
-          </a>
+          <button className="button-style">Buy Pixel Zombie</button>
         </li>
         <li className="li-menu">
-          <a
+          <button
             className="button-style"
             onClick={() =>
               OpenInNewTabTwitter("https://twitter.com/Pixel_Zombies_")
-            }
-            href="#">
+            }>
             Twitter
-          </a>
+          </button>
         </li>
       </ul>
     </nav>
