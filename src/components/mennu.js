@@ -12,7 +12,7 @@ export default function BarMenu({ setSelected, selected }) {
           </a>
         </li>
         <li className="li-menu">
-          <a className="button-style" href="">
+          <a className="button-style" href="#">
             Buy Pixel Zombie
           </a>
         </li>
@@ -21,8 +21,7 @@ export default function BarMenu({ setSelected, selected }) {
             className="button-style"
             onClick={() =>
               OpenInNewTabTwitter("https://twitter.com/Pixel_Zombies_")
-            }
-            href="">
+            }>
             Twitter
           </a>
         </li>
