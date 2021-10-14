@@ -25,6 +25,15 @@ export default function BarMenu({ setSelected, selected }) {
             Twitter
           </button>
         </li>
+        <li className="li-menu">
+          <button
+            className="button-style"
+            onClick={() =>
+              OpenInNewTabTwitter("https://twitter.com/Pixel_Zombies_")
+            }>
+            Discord
+          </button>
+        </li>
       </ul>
     </nav>
   );
