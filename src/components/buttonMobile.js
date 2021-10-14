@@ -18,6 +18,13 @@ export default function ButtonJustMobile({ setSelected, selected }) {
         }>
         Twitter
       </button>
+      <button
+        className="button-style-mobile"
+        onClick={() =>
+          OpenInNewTabTwitter("https://twitter.com/Pixel_Zombies_")
+        }>
+        Discord
+      </button>
     </div>
   );
 }

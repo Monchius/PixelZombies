@@ -1,3 +1,7 @@
+body {
+  background-image: url("./images/Fondozombies.jpg");
+  cursor: url(images/Puntero.png), auto;
+}
 @media screen and (max-width: 800px) {
   @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900");
   .container {
@@ -15,6 +19,9 @@
   .img-fix {
     margin-left: -60px;
     margin-bottom: 15px;
+  }
+  .img-fix2 {
+    display: none;
   }
   .title {
     width: 100%;
@@ -83,6 +90,16 @@
   }
   button {
     order: 1;
+  }
+}
+@media screen and (max-width: 360px) {
+  .img-fix2 {
+    display: block;
+    margin-left: -36px;
+    margin-bottom: 15px;
+  }
+  .img-fix {
+    display: none;
   }
 }
 body {
@@ -168,7 +185,7 @@ button {
   width: 80%;
   justify-content: space-between;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .img-container {
   margin: auto;
@@ -232,4 +249,24 @@ button {
   .img-fix {
     display: none;
   }
+  .img-fix2 {
+    display: none;
+  }
+}
+.Countdown {
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(13, 82, 22, 0.2) 25%,
+    rgba(13, 82, 22, 0.2) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
 }

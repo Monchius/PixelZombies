@@ -2,6 +2,7 @@ import carga from "../images/carga.gif";
 import Logo from "../images/Logo.png";
 import rotatezombie from "../images/rotatezombie.gif";
 import Imgmobile from "../images/Imgmobile.png";
+import Imgmobile2 from "../images/Imgmobile2.png";
 
 export default function HomepageFunction() {
   return (
@@ -13,6 +14,9 @@ export default function HomepageFunction() {
         </div>
         <div className="img-fix">
           <img src={Imgmobile} alt="" />
+        </div>
+        <div className="img-fix2">
+          <img src={Imgmobile2} alt="" />
         </div>
         <div className="text-container">
           <img className="title" src={Logo} alt="" />
