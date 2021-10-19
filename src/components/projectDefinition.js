@@ -1,28 +1,7 @@
-export default function DefinitionFunction({ setSelected }) {
+export default function DefinitionFunction({ setSelected, setShowCounter }) {
   const backHome = () => {
     setSelected(null);
   };
-  var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
-  var x = setInterval(function () {
-    var now = new Date().getTime();
-
-    var distance = countDownDate - now;
-
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor(
-      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    );
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    document.getElementById("demo").innerHTML =
-      days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-    if (distance < 0) {
-      clearInterval(x);
-      document.getElementById("demo").innerHTML = "EXPIRED";
-    }
-  }, 1000);
   return (
     <div className="text-container-definition">
       <button className="button-back" onClick={backHome}>
@@ -62,8 +41,7 @@ export default function DefinitionFunction({ setSelected }) {
           <p>The creative guy, who is totally unaware of the real world.</p>
         </li>
       </p>
-      <h2 className="Countdown">Wen Mint?</h2>
-      <div></div>
+      <h2 className="Countdown">When Mint?</h2>
     </div>
   );
 }
