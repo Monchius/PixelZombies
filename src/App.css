@@ -216,10 +216,12 @@ button {
   font-size: 60px;
 }
 .icon-father {
-  flex-direction: row;
+  display: flex;
 }
 .icono-child1 {
-  flex: 1;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 10px;
 }
 .icono-child2 {
   flex: 2;

@@ -27,25 +27,35 @@ export default function DefinitionFunction({ setSelected, setShowCounter }) {
       <h2 className="h2-title-dafinition">Roadmap</h2>
       <ul className="paragraph-style">
         <li className="icon-father">
-          <img src={greenIcon} className="icono-child1" alt="" />
+          <div className="icono-child1">
+            <img src={greenIcon} alt="" />
+          </div>
           <p className="icono-child2">Putting the site online.</p>
         </li>
         <li className="icon-father">
-          <img src={greenIcon} className="icono-child1" alt="" />
+          <div className="icono-child1">
+            <img src={greenIcon} alt="" />
+          </div>{" "}
           <p className="icono-child2">Twitter campaign.</p>
         </li>
         <li className="icon-father">
-          <img src={greenIcon} className="icono-child1" alt="" />
+          <div className="icono-child1">
+            <img src={greenIcon} alt="" />
+          </div>{" "}
           <p className="icono-child2">
             Our artist designs the collection of more than 56 accessories.
           </p>
         </li>
         <li className="icon-father">
-          <img src={redIcon} className="icono-child1" alt="" />
+          <div className="icono-child1">
+            <img src={redIcon} alt="" />
+          </div>{" "}
           <p className="icono-child2">Launch on October 23, 2021.</p>
         </li>
         <li className="icon-father">
-          <img src={redIcon} className="icono-child1" alt="" />
+          <div className="icono-child1">
+            <img src={redIcon} alt="" />
+          </div>{" "}
           <p className="icono-child2">
             High quality images. You will be able to download your Crypto Zombie
             in high resolution, for pronting purposes. So you can put it on your
