@@ -1,5 +1,7 @@
 import redIcon from "../images/redIcon.png";
-import greenIcon from "../images/greenIcon.png";
+import Roadmap from "../images/Roadmap.png";
+import RoadmapM from "../images/RoadmapM.png";
+
 export default function DefinitionFunction({ setSelected, setShowCounter }) {
   const backHome = () => {
     setSelected(null);
@@ -11,8 +13,8 @@ export default function DefinitionFunction({ setSelected, setShowCounter }) {
       </button>
       <h2 className="h2-title-dafinition">Come and join the Horde!</h2>
       <p className="paragraph-style">
-        Welcome to Crypto Zombie. XXXXX awesome living dead, coexisting on the
-        Solana blockchain. discord Launch XXth Sep.
+        Welcome to Pixel Zombies. 500 awesome living dead, coexisting right now
+        on the Solana blockchain.
       </p>
       <h2 className="h2-title-dafinition">Horde details</h2>
       <p className="paragraph-style">
@@ -25,44 +27,10 @@ export default function DefinitionFunction({ setSelected, setShowCounter }) {
         some of them have a higher rank in the Horde of undead.
       </p>
       <h2 className="h2-title-dafinition">Roadmap</h2>
-      <ul className="paragraph-style">
-        <li className="icon-father">
-          <div className="icono-child1">
-            <img src={greenIcon} alt="" />
-          </div>
-          <p className="icono-child2">Putting the site online.</p>
-        </li>
-        <li className="icon-father">
-          <div className="icono-child1">
-            <img src={greenIcon} alt="" />
-          </div>{" "}
-          <p className="icono-child2">Twitter campaign.</p>
-        </li>
-        <li className="icon-father">
-          <div className="icono-child1">
-            <img src={greenIcon} alt="" />
-          </div>{" "}
-          <p className="icono-child2">
-            Our artist designs the collection of more than 56 accessories.
-          </p>
-        </li>
-        <li className="icon-father">
-          <div className="icono-child1">
-            <img src={redIcon} alt="" />
-          </div>{" "}
-          <p className="icono-child2">Launch on October 23, 2021.</p>
-        </li>
-        <li className="icon-father">
-          <div className="icono-child1">
-            <img src={redIcon} alt="" />
-          </div>{" "}
-          <p className="icono-child2">
-            High quality images. You will be able to download your Crypto Zombie
-            in high resolution, for pronting purposes. So you can put it on your
-            nightstand!
-          </p>
-        </li>
-      </ul>
+      <div className="paragraph-style">
+        <img className="roadmap" src={Roadmap} alt="" />
+        <img className="roadmapM" src={RoadmapM} alt="" />
+      </div>
       <h2 className="h2-title-dafinition">The Team</h2>
       <p className="paragraph-style">
         We are a small team that we really want to infect the world with our
@@ -77,7 +45,7 @@ export default function DefinitionFunction({ setSelected, setShowCounter }) {
         </li>
       </p>
       <h2 className="Countdown">When Mint?</h2>
-      <h2></h2>
+      <h2 className="Countdown">01, November, 2021</h2>
     </div>
   );
 }

@@ -12,7 +12,6 @@ body {
     margin: auto;
     margin-top: 20%;
   }
-
   .img-container {
     display: none;
   }
@@ -44,6 +43,12 @@ body {
     text-align: center;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     flex: 1;
+  }
+  .roadmap {
+    display: none;
+  }
+  .roadmapM {
+    height: 500px;
   }
   .button-style-mobile {
     text-align: center;
@@ -121,7 +126,7 @@ p {
 }
 .paragraph-style {
   border-radius: 20px;
-  margin: 30px;
+  margin: 20px;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.527);
   font-size: 15px;
@@ -258,7 +263,7 @@ button {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
-  font-size: 60px;
+  font-size: 30px;
   margin-top: 0px;
   background: linear-gradient(
     90deg,
@@ -270,7 +275,14 @@ button {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
     inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
+.roadmap {
+  height: 1300px;
+}
+
 @media screen and (min-width: 800px) {
+  .roadmapM {
+    display: none;
+  }
   .button-style-mobile {
     display: none;
   }
