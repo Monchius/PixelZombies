@@ -13,7 +13,7 @@ export default function DefinitionFunction({ setSelected, setShowCounter }) {
       </button>
       <h2 className="h2-title-dafinition">Come and join the Horde!</h2>
       <p className="paragraph-style">
-        Welcome to Pixel Zombies. 500 awesome living dead, coexisting right now
+        Welcome to Pixel Zombies. 300 awesome living dead, coexisting right now
         on the Solana blockchain.
       </p>
       <h2 className="h2-title-dafinition">Horde details</h2>
