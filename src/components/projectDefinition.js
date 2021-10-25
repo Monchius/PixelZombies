@@ -1,8 +1,7 @@
-import redIcon from "../images/redIcon.png";
 import Roadmap from "../images/Roadmap.png";
 import RoadmapM from "../images/RoadmapM.png";
 
-export default function DefinitionFunction({ setSelected, setShowCounter }) {
+export default function DefinitionFunction({ setSelected }) {
   const backHome = () => {
     setSelected(null);
   };
