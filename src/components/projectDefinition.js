@@ -20,9 +20,12 @@ export default function DefinitionFunction({ setSelected }) {
         Pixel Zombies is the first generative art series to launch on Solana
         designed with different historical characters. Every single Zombie has
         gone through a tough transformation process and was selected between
-        different historical characters, and they have different collectible
-        parts, like background, custom objects, pillars where they are kept,
-        etc... As they are all part of Horde, all of them are super cute, but
+        different historical characters. As they are all part of Horde, all of
+        them are super cute. A collection of different zombified historical
+        characters. They come with different background options, objects and
+        pillars where they are positioned. The pixel zombies have different
+        roles and exclusive objects for each zombie. Having a pixel zombie with
+        its own personalised accessories will make it an NFT more exclusive, but
         some of them have a higher rank in the Horde of undead.
       </p>
       <h2 className="h2-title-dafinition">Roadmap</h2>

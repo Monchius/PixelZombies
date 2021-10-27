@@ -20,9 +20,7 @@ export default function ButtonJustMobile({ setSelected, selected }) {
       </button>
       <button
         className="button-style-mobile"
-        onClick={() =>
-          OpenInNewTabTwitter("https://twitter.com/Pixel_Zombies_")
-        }>
+        onClick={() => OpenInNewTabTwitter("https://discord.gg/zZD7ePnq")}>
         Discord
       </button>
     </div>

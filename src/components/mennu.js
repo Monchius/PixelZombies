@@ -28,9 +28,7 @@ export default function BarMenu({ setSelected, selected }) {
         <li className="li-menu">
           <button
             className="button-style"
-            onClick={() =>
-              OpenInNewTabTwitter("https://twitter.com/Pixel_Zombies_")
-            }>
+            onClick={() => OpenInNewTabTwitter("https://discord.gg/zZD7ePnq")}>
             Discord
           </button>
         </li>
