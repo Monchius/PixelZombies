@@ -3,6 +3,10 @@ export default function ButtonJustMobile({ setSelected, selected }) {
     var win = window.open("https://twitter.com/Pixel_Zombies_", "_blank");
     win.focus();
   }
+  function OpenInNewTabDiscord(url) {
+    var win = window.open("https://discord.gg/zZD7ePnq", "_blank");
+    win.focus();
+  }
   return (
     <div className="button-mobile-container">
       <button
@@ -20,7 +24,7 @@ export default function ButtonJustMobile({ setSelected, selected }) {
       </button>
       <button
         className="button-style-mobile"
-        onClick={() => OpenInNewTabTwitter("https://discord.gg/zZD7ePnq")}>
+        onClick={() => OpenInNewTabDiscord("https://discord.gg/zZD7ePnq")}>
         Discord
       </button>
     </div>

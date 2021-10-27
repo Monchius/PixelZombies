@@ -3,6 +3,10 @@ export default function BarMenu({ setSelected, selected }) {
     var win = window.open("https://twitter.com/Pixel_Zombies_", "_blank");
     win.focus();
   }
+  function OpenInNewTabDiscord(url) {
+    var win = window.open("https://discord.gg/zZD7ePnq", "_blank");
+    win.focus();
+  }
   return (
     <nav className="nav-menu">
       <ul className="ul-menu">
@@ -28,7 +32,7 @@ export default function BarMenu({ setSelected, selected }) {
         <li className="li-menu">
           <button
             className="button-style"
-            onClick={() => OpenInNewTabTwitter("https://discord.gg/zZD7ePnq")}>
+            onClick={() => OpenInNewTabDiscord("https://discord.gg/zZD7ePnq")}>
             Discord
           </button>
         </li>
