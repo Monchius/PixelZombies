@@ -47,7 +47,7 @@ export default function DefinitionFunction({ setSelected }) {
         </li>
       </p>
       <h2 className="Countdown">When Mint?</h2>
-      <h2 className="Countdown">1st, November, 2021</h2>
+      <h2 className="Countdown">X, November, 2021</h2>
     </div>
   );
 }
