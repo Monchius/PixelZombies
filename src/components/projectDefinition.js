@@ -12,7 +12,7 @@ export default function DefinitionFunction({ setSelected }) {
       </button>
       <h2 className="h2-title-dafinition">Come and join the Horde!</h2>
       <p className="paragraph-style">
-        Welcome to Pixel Zombies. 300 awesome living dead, coexisting right now
+        Welcome to Pixel Zombies. 120 awesome living dead, coexisting right now
         on the Solana blockchain.
       </p>
       <h2 className="h2-title-dafinition">Horde details</h2>
@@ -42,12 +42,12 @@ export default function DefinitionFunction({ setSelected }) {
           <p>He has all the answers, and that's it!</p>
         </li>
         <li>
-          <h3>- Zombie Ra-art</h3>
+          <h3>- Zombie Ramon Lucha</h3>
           <p>The creative guy, who is totally unaware of the real world.</p>
         </li>
       </p>
       <h2 className="Countdown">When Mint?</h2>
-      <h2 className="Countdown">X, November, 2021</h2>
+      <h2 className="Countdown">20th, November, 2021 at 20:00</h2>
     </div>
   );
 }

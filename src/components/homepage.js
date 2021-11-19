@@ -28,7 +28,7 @@ export default function HomepageFunction() {
           </h1>
           <h2 className="h2-message">
             Hand-drawn, from initial sketch to final digital art, created by our
-            genius artist Ra-art
+            genius artist Ramon Lucha.
           </h2>
         </div>
       </div>
